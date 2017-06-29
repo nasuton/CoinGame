@@ -1,0 +1,11 @@
+{
+	"Title" : 
+	{
+		"res" : "title/titlebackground.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.5
+		}
+	}
+}
