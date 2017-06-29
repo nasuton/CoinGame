@@ -40,7 +40,7 @@ void CapsuleToysModalLayer::CanNotDraw()
 	notText->setPosition(Vec2(notText->getContentSize().width * 0.5f, notText->getContentSize().height * 0.5f));
 	notTextBack->addChild(notText);
 
-	BackButton* backButton = BackButton::ButtonCreate("returnButton.png");
+	BackButton* backButton = BackButton::ButtonCreate("backButton.png");
 	backButton->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.3f));
 	backButton->setScale(1.5f);
 	backButton->addTouchEventListener(CC_CALLBACK_2(CapsuleToysModalLayer::PushUiButton, this));
@@ -66,7 +66,7 @@ void CapsuleToysModalLayer::DrawingResult(std::string name, std::string imageFil
 	resultSprite->setPosition(Vec2(resultBack->getContentSize().width * 0.5f, resultBack->getContentSize().height * 0.5f));
 	resultBack->addChild(resultSprite);
 
-	BackButton* backButton = BackButton::ButtonCreate("returnButton.png");
+	BackButton* backButton = BackButton::ButtonCreate("backButton.png");
 	backButton->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.2f));
 	backButton->setScale(1.5f);
 	backButton->addTouchEventListener(CC_CALLBACK_2(CapsuleToysModalLayer::PushUiButton, this));

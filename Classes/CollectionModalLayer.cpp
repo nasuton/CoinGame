@@ -27,7 +27,7 @@ bool CollectionModalLayer::init()
 	maskSprite->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.5f));
 	this->addChild(maskSprite);
 
-	BackButton* backButton = BackButton::ButtonCreate("returnButton.png");
+	BackButton* backButton = BackButton::ButtonCreate("backButton.png");
 	backButton->setScale(1.5f);
 	backButton->setPosition(Vec2(visibleSize.width * 0.5f, backButton->getContentSize().height * 0.5f));
 	backButton->addTouchEventListener(CC_CALLBACK_2(CollectionModalLayer::PushUiButton, this));

@@ -200,7 +200,7 @@ void TenYenStageLayer::StageSetUp(int num)
 	giftExitPos = Vec2(other["geftExitPos"]["width"].GetFloat(), other["geftExitPos"]["height"].GetFloat());
 	giftFileName = other["giftFileName"].GetString();
 
-	ManagingSound::GetInstance()->PlayBgm("sound/BGM/tenYenStage", 0.3, true, 0.5f);
+	ManagingSound::GetInstance()->PlayBgm("sound/BGM/tenYenStageBGM", 0.3, true, 0.5f);
 }
 
 void TenYenStageLayer::StageUpDate(float delta)

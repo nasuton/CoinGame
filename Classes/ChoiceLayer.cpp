@@ -1,4 +1,4 @@
-#include "ChoiceLayer.h"
+﻿#include "ChoiceLayer.h"
 #include "SceneManager.h"
 #include "ManagingSound.h"
 #include "UserData.h"
@@ -59,7 +59,7 @@ bool ChoiceLayer::init()
 	const rapidjson::Value& decision = choiceDoc["uiButton"];
 	this->DecisionButtonInit(decision);
 
-	ManagingSound::GetInstance()->PlayBgm("sound/BGM/selectSceneBGM", 0.3f, true, 0.5f);
+	ManagingSound::GetInstance()->PlayBgm("sound/BGM/selectSceneBGM", 0.5f, true, 0.5f);
 
 	return true;
 }

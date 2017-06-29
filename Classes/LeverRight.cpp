@@ -1,10 +1,13 @@
 #include "LeverRight.h"
+#include "ManagingSound.h"
 
 USING_NS_CC;
 
 LeverRight::LeverRight()
+	:touchLocation(0.0f, 0.0f)
+	,isTouchLever(false)
 {
-	touchLocation = Vec2(0.0f, 0.0f);
+	
 }
 
 LeverRight::~LeverRight()
@@ -55,6 +58,8 @@ void LeverRight::TouchEnded(cocos2d::Touch *touch)
 		{
 			getTarget()->getPhysicsBody()->applyImpulse(Vec2(400.0f * (distance / 100.0f) * -1.0f, 0.0f));
 		}
+
+		ManagingSound::GetInstance()->PlaySe("sound/SE/lever.m4a", false);
 
 		isTouchLever = false;
 	}

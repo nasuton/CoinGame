@@ -3,6 +3,7 @@
 #include "SceneManager.h"
 #include "CapsuleToysModalLayer.h"
 #include "UserData.h"
+#include "ManagingSound.h"
 
 USING_NS_CC;
 
@@ -54,6 +55,7 @@ bool CapsuleToysLayer::init()
 		switch (type)
 		{
 		case ui::Button::Widget::TouchEventType::ENDED:
+			ManagingSound::GetInstance()->StopBgm(0.3f, true);
 			SceneManager::CreateChoiceScene();
 			break;
 		default:
@@ -86,6 +88,8 @@ bool CapsuleToysLayer::init()
 	{
 		totalProbability += itr->second.probability;
 	}
+
+	ManagingSound::GetInstance()->PlayBgm("sound/BGM/capsuleToysSceneBGM", 0.5f, true, 0.5f);
 
 	return true;
 }

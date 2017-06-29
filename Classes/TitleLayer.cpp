@@ -27,14 +27,22 @@ bool TitleLayer::init()
 		return false;
 	}
 
-	auto winSize = Director::getInstance()->getWinSize();
-	log(u8"winSizeは%f, %f", winSize.width, winSize.height);
-
 	Size visibleSize = UserData::GetInstance()->GetResolutionSize();
 
-	Sprite* titleSprite = Sprite::create("title/titlebackground.png");
-	titleSprite->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.5f));
-	this->addChild(titleSprite);
+	Sprite* titleBackSprite = Sprite::create("title/titlebackground.png");
+	titleBackSprite->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.5f));
+	this->addChild(titleBackSprite);
+
+	Sprite* titleNameSprite = Sprite::create("title/titleName.png");
+	titleNameSprite->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.9f));
+	this->addChild(titleNameSprite);
+
+	Sprite* titleTouchSprite = Sprite::create("title/touchSprite.png");
+	titleTouchSprite->setPosition(Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.1f));
+	this->addChild(titleTouchSprite);
+
+	Sequence* flashing = Sequence::create(FadeOut::create(1.0f), FadeIn::create(1.0f), NULL);
+	titleTouchSprite->runAction(RepeatForever::create(flashing));
 
 	ManagingSound::GetInstance()->PlayBgm("sound/BGM/titleSceneBGM", 0.3f, true, 0.5f);
 
@@ -54,6 +62,7 @@ void TitleLayer::onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* unused_even
 void TitleLayer::onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* unused_event)
 {
 	ManagingSound::GetInstance()->StopBgm(2.0f, true);
+	ManagingSound::GetInstance()->PlaySe("sound/SE/titleTap.m4a", false);
 	SceneManager::CreateChoiceScene();
 }
 

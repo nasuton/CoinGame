@@ -4,6 +4,7 @@
 #include "UserData.h"
 #include "JsonHelper.h"
 #include "BackButton.h"
+#include "ManagingSound.h"
 
 #include "ui/CocosGUI.h"
 
@@ -131,13 +132,14 @@ bool CollectionLayer::init()
 	Size inveSize = Size(scrollViewLayer->getContentSize().width, scrollViewLayer->getContentSize().height);
 	scrollView->setContentSize(inveSize);
 
-	BackButton* backButton = BackButton::ButtonCreate("returnButton.png");
+	BackButton* backButton = BackButton::ButtonCreate("backButton.png");
 	backButton->setPosition(Vec2(backButton->getContentSize().width * 0.5f, visibleSize.height - (backButton->getContentSize().height * 0.5f)));
 	backButton->addTouchEventListener([this](cocos2d::Ref* sender, cocos2d::ui::Button::Widget::TouchEventType type)
 	{
 		switch (type)
 		{
 		case cocos2d::ui::Button::Widget::TouchEventType::ENDED:
+			ManagingSound::GetInstance()->StopBgm(0.3f, true);
 			SceneManager::CreateChoiceScene();
 			break;
 		default:
@@ -145,6 +147,8 @@ bool CollectionLayer::init()
 		}
 	});
 	this->addChild(backButton);
+
+	ManagingSound::GetInstance()->PlayBgm("sound/BGM/collectionSceneBGM", 0.5f, true, 0.5f);
 
 	return true;
 }

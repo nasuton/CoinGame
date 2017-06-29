@@ -1,4 +1,4 @@
-#include "SliderLayer.h"
+﻿#include "SliderLayer.h"
 #include "UserData.h"
 
 USING_NS_CC;
