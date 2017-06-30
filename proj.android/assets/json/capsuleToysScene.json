@@ -19,7 +19,7 @@
 	},
 	"backButton" :
 	{
-		"res" : "returnButton.png",
+		"res" : "backButton.png",
 		"position" :
 		{
 			"x" : 0.5,

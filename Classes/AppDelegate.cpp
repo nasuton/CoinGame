@@ -101,12 +101,24 @@ bool AppDelegate::applicationDidFinishLaunching() {
 		searchPath.push_back("Android");
 		searchPath.push_back("json");
 		searchPath.push_back("fonts");
+		searchPath.push_back("sound/Smartphone");
+		searchPath.push_back("stageData");
 		break;
 		
 	case Application::Platform::OS_IPHONE:
 		searchPath.push_back("ios");
 		searchPath.push_back("json");
 		searchPath.push_back("fonts");
+		searchPath.push_back("sound/Smartphone");
+		searchPath.push_back("stageData");
+		break;
+
+	case Application::Platform::OS_WINDOWS:
+		searchPath.push_back("Windows");
+		searchPath.push_back("json");
+		searchPath.push_back("sound/Windows");
+		searchPath.push_back("fonts");
+		searchPath.push_back("stageData");
 		break;
 	default:
 		break;

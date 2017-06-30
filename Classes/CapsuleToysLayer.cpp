@@ -101,13 +101,13 @@ void CapsuleToysLayer::DischargeCapsule(float delta)
 	capsule->setOpacity(0);
 	this->addChild(capsule);
 
-	auto fadeInCapsule = FadeIn::create(1.0f);
+	FadeIn* fadeInCapsule = FadeIn::create(1.0f);
 
-	auto moveToCapsule = MoveTo::create(1.5f, Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.26f));
+	MoveTo* moveToCapsule = MoveTo::create(1.5f, Vec2(visibleSize.width * 0.5f, visibleSize.height * 0.26f));
 
-	auto fadeOutCapsule = FadeOut::create(2.0f);
+	FadeOut* fadeOutCapsule = FadeOut::create(2.0f);
 
-	auto resetButtonFunc = CallFunc::create([this]() {
+	CallFunc* resetButtonFunc = CallFunc::create([this]() {
 		gachaButton->setTouchEnabled(true);
 
 		backButton->setTouchEnabled(true);

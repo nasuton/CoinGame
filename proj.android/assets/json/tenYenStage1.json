@@ -233,7 +233,7 @@
 	},
 	"returnButton" :
 	{
-		"res" : "returnButton.png"
+		"res" : "backButton.png"
 	},
 	"other" :
 	{
