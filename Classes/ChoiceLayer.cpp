@@ -43,9 +43,9 @@ bool ChoiceLayer::init()
 	keeporder view;
 	for (rapidjson::Value::ConstMemberIterator itr = slideView.MemberBegin(); itr != slideView.MemberEnd(); itr++)
 	{
-		std::string key = itr->name.GetString();
-		std::string value = itr->value.GetString();
-		view.push_back(std::make_pair(key, value));
+		std::string name = itr->name.GetString();
+		std::string res = itr->value.GetString();
+		view.push_back(std::make_pair(name, res));
 	}
 
 	const rapidjson::Value& slideSetting = choiceDoc["slideView"];
