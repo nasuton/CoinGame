@@ -93,6 +93,26 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     register_all_packages();
 
+	std::vector<std::string> searchPath;
+	auto platform = Application::getInstance()->getTargetPlatform();
+	switch (platform)
+	{
+	case Application::Platform::OS_ANDROID:
+		searchPath.push_back("Android");
+		searchPath.push_back("json");
+		searchPath.push_back("fonts");
+		break;
+		
+	case Application::Platform::OS_IPHONE:
+		searchPath.push_back("ios");
+		searchPath.push_back("json");
+		searchPath.push_back("fonts");
+		break;
+	default:
+		break;
+	}
+	FileUtils::getInstance()->setSearchPaths(searchPath);
+
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 	UserData::GetInstance()->SetResolutionSize(visibleSize);
 	UserData::GetInstance()->CreatePlist();

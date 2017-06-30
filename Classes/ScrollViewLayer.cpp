@@ -5,7 +5,8 @@
 USING_NS_CC;
 
 ScrollViewLayer::ScrollViewLayer()
-	:magnificationHeight(0.0f)
+	:touchLocation(0.0f, 0.0f)
+	,magnificationHeight(0.0f)
 	,interval(15.0f)
 	,isMove(false)
 {
@@ -64,12 +65,19 @@ bool ScrollViewLayer::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* unused
 		isMove = false;
 	}
 
+	touchLocation = touch->getLocation();
+
 	return true;
 }
 
 void ScrollViewLayer::onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* unused_event)
 {
-	isMove = true;
+	Vec2 location = touch->getLocation();
+
+	if (10.0f < location.distance(touchLocation))
+	{
+		isMove = true;
+	}
 }
 
 void ScrollViewLayer::onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* unused_event)

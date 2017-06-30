@@ -10,10 +10,10 @@
 	},
 	"slideViewSprite" :
 	{
-			"ステージ1" : "returnButton.png",
+			"ステージ1" : "backButton.png",
 			"ステージ2" : "gift.png",
-			"ガチャ" : "choiceScene/gachaSlideView.png",
-			"コレクション" : "gacha/gachabody.png"
+			"ガチャ" : "choiceScene/capsuleToysSceneSlideView.png",
+			"コレクション" : "choiceScene/collectionSlideView.png"
 	},
 	"slideView" :
 	{

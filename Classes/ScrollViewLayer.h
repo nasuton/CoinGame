@@ -11,6 +11,8 @@ private:
 
 	cocos2d::EventListenerTouchOneByOne* touchListener;
 
+	cocos2d::Vec2 touchLocation;
+
 	float magnificationHeight;
 
 	float interval;
