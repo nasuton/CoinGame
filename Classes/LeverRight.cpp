@@ -1,4 +1,4 @@
-#include "LeverRight.h"
+﻿#include "LeverRight.h"
 #include "ManagingSound.h"
 
 USING_NS_CC;
@@ -19,11 +19,13 @@ void LeverRight::TouchBegan(cocos2d::Touch *touch)
 {
 	touchLocation = touch->getLocation();
 
+	//触ってればtrueにする
 	isTouchLever = true;
 }
 
 void LeverRight::TouchMoved(cocos2d::Touch *touch)
 {
+	//動かした分だけレバーを回転させる
 	Vec2 location = touch->getLocation();
 
 	if (isTouchLever)
@@ -41,6 +43,7 @@ void LeverRight::TouchMoved(cocos2d::Touch *touch)
 
 void LeverRight::TouchEnded(cocos2d::Touch *touch)
 {
+	//動かした分だけコインに力を加える
 	Vec2 location = touch->getLocation();
 
 	if (isTouchLever)

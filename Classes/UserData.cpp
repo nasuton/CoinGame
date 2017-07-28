@@ -1,4 +1,4 @@
-#include "UserData.h"
+﻿#include "UserData.h"
 
 USING_NS_CC;
 
@@ -40,11 +40,13 @@ void UserData::CreatePlist()
 {
 	dataPath = FileUtils::getInstance()->getWritablePath() + "userDefault.plist";
 
+	//plistが存在した場合はreturnする
 	if (FileUtils::getInstance()->isFileExist(dataPath))
 	{
 		return;
 	}
 
+	//plistの中身を作る
 	ValueMap data;
 	data["remainingNumber"] = 0;
 	ValueMap resultList;

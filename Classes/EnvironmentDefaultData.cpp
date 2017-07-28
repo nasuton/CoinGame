@@ -1,4 +1,4 @@
-#include "EnvironmentDefaultData.h"
+﻿#include "EnvironmentDefaultData.h"
 
 USING_NS_CC;
 
@@ -6,6 +6,7 @@ EnvironmentDefaultData* EnvironmentDefaultData::envInstance = nullptr;
 
 EnvironmentDefaultData::EnvironmentDefaultData()
 {
+	//解像度の設定とゲームのタイトル
 	designResolutionSize = Size(360.0f, 640.0f);
 	smallResolutionSize = Size(360.0f, 640.0f);
 	mediumResolutionSize = Size(640.0f, 1136.0f);

@@ -1,4 +1,4 @@
-#ifndef ManagingSound_h
+ï»¿#ifndef ManagingSound_h
 #define ManagingSound_h
 
 #include "cocos2d.h"
@@ -6,12 +6,14 @@
 class ManagingSound
 {
 private:
+	//
 	enum AudioType
 	{
 		BGM = 0,
 		SE,
 	};
 
+	//
 	enum FadeType
 	{
 		NONE = 0,
@@ -25,25 +27,31 @@ private:
 
 	static cocos2d::Scheduler* managerScheduler;
 
+	//jsonã‚’ã—ã‚ˆã†ã™ã‚‹å ´åˆä½¿ç”¨
 	std::map<std::string, std::string> bgmList;
 
+	//josnã‚’ä½¿ç”¨ã™ã‚‹å ´åˆä½¿ç”¨ã™ã‚‹
 	std::map<std::string, std::string> seList;
 
+	//4ã¤ã¾ã§SEã‚’ä½¿ç”¨ã§ãã‚‹
 	int seChunk[4];
 
+	//BGM
 	int bgmId;
 
+	//åŒã˜ã‚‚ã®ã‹ã©ã†ã‹åˆ¤æ–­ã™ã‚‹ãŸã‚
 	std::string bgmFileName;
 
+	//æ‹¡å¼µå­
 	std::string bgmFileExt;
 
 	CC_SYNTHESIZE(std::string, audioListFile, AudioListFile);
 
-	//‰¹—Ê
+	//éŸ³é‡
 	float bgmVolume;
 	float seVolume;
 
-	//BGMƒtƒF[ƒhŠÖ˜A
+	//BGMãƒ•ã‚§ãƒ¼ãƒ‰é–¢é€£
 	FadeType fadeCondition;
 	float fadeVolumeFrom;
 	float fadeVolumeTo;
@@ -60,69 +68,69 @@ public:
 
 	virtual void update(float delta);
 
-	//ŠÇ—ƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚Ş
+	//ç®¡ç†ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚€
 	bool ReadAudioFile(std::string jsonName);
 
 	void ReleaseAll();
 
-	//‰¹—Ê‚Ì‰Šú‰»
+	//éŸ³é‡ã®åˆæœŸåŒ–
 	void InitVolume(float bgm, float se);
 
-	//AudioEngine‰ğ•ú
+	//AudioEngineè§£æ”¾
 	void EndAudioEngine();
 
 	//---------------------------------------BGM---------------------------------------//
-	//BGMÄ¶
+	//BGMå†ç”Ÿ
 	int PlayBgm(std::string bgmName, float fade = 0.0f, bool loop = true);
 	int PlayBgm(std::string bgmName, float fade, bool loop, float volume);
 
-	//BGMˆê’â~
+	//BGMä¸€æ™‚åœæ­¢
 	void PauseBgm(float fade = 0.0f);
 
-	//BGM’â~
+	//BGMåœæ­¢
 	void StopBgm(float fade = 0.0f, bool release = true);
 
-	//BGMÄ¶’†‚©‚Ç‚¤‚©
+	//BGMå†ç”Ÿä¸­ã‹ã©ã†ã‹
 	bool IsPlayingBgm();
 
-	//BGM‰¹—Ê•ÏX
+	//BGMéŸ³é‡å¤‰æ›´
 	void SetBgmVolume(float volume, bool save = true);
 
-	//BGM‰¹—Êæ“¾
+	//BGMéŸ³é‡å–å¾—
 	float GetBgmVolume();
 
-	//BGMƒLƒƒƒbƒVƒ…‰ğ•ú
+	//BGMã‚­ãƒ£ãƒƒã‚·ãƒ¥è§£æ”¾
 	void ReleaseBgm();
 
 	//---------------------------------------SE---------------------------------------//
-	//SEÄ¶
+	//SEå†ç”Ÿ
 	int PlaySe(std::string seName, int chunkNumber);
 	int PlaySe(std::string seName, int chunkNumber, bool loop, float volume);
 	int PlaySe(std::string seName, bool loop = false);
 	int PlaySe(std::string seName, bool loop, float volume);
 
-	//SE’â~
+	//SEåœæ­¢
 	void StopSe(int seId);
 
-	//SE‰¹—Ê•ÏX
+	//SEéŸ³é‡å¤‰æ›´
 	void SetSeVolume(float volume);
 
-	//SE‰¹—Êæ“¾
+	//SEéŸ³é‡å–å¾—
 	float GetSeVolume();
 
-	//SEƒLƒƒƒbƒVƒ…‰ğ•ú
+	//SEã‚­ãƒ£ãƒƒã‚·ãƒ¥è§£æ”¾
 	void ReleaseSe(std::string seName);
 
 private:
 	ManagingSound();
 
-	//Šg’£q‚Ìæ“¾
+	//æ‹¡å¼µå­ã®å–å¾—
 	std::string GetExtension(AudioType type, std::string audioName);
 
-	//pauseBGM‚ÌÀs
+	//pauseBGMã®å®Ÿè¡Œ
 	void PauseBgmEngine();
 	
-	//stopBGM‚ÌÀs
+	//stopBGMã®å®Ÿè¡Œ
 	void StopBgmEngine(bool release = true);
 };
 

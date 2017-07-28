@@ -1,4 +1,4 @@
-#include "TitleScene.h"
+﻿#include "TitleScene.h"
 #include "TitleLayer.h"
 
 USING_NS_CC;
@@ -17,6 +17,7 @@ Scene* TitleScene::SceneCreate()
 {
 	Scene* scene = Scene::create();
 
+	//シーンにLayer追加する
 	scene->addChild(CreateLayer<TitleLayer>());
 
 	return scene;

@@ -9,7 +9,8 @@ public:
 	~EnvironmentDefaultData();
 
 	static EnvironmentDefaultData* GetInstance();
-
+	
+	//ƒQ[ƒ€“à‚Ì‰ğ‘œ“x
 	cocos2d::Size designResolutionSize;
 
 	cocos2d::Size smallResolutionSize;

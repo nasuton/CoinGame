@@ -27,6 +27,7 @@ bool ChoiceLayer::init()
 
 	visibleSize = UserData::GetInstance()->GetResolutionSize();
 
+	//jsonを使えるようにする
 	rapidjson::Document choiceDoc = JsonHelper::DocumentParse<rapidjson::kParseDefaultFlags>("json/choiceScene.json");
 
 	if (choiceDoc.HasParseError())
@@ -34,11 +35,14 @@ bool ChoiceLayer::init()
 		log("json parse error");
 	}
 
+	//背景
 	const rapidjson::Value& background = choiceDoc["backGround"];
 	auto backGround = Sprite::create(background["res"].GetString());
-	backGround->setPosition(Vec2(visibleSize.width * background["position"]["x"].GetFloat(), visibleSize.height * background["position"]["y"].GetFloat()));
+	backGround->setPosition(Vec2(visibleSize.width * background["position"]["x"].GetFloat(), 
+								 visibleSize.height * background["position"]["y"].GetFloat()));
 	this->addChild(backGround);
 
+	//スライドビューの作成
 	const rapidjson::Value& slideView = choiceDoc["slideViewSprite"];
 	keeporder view;
 	for (rapidjson::Value::ConstMemberIterator itr = slideView.MemberBegin(); itr != slideView.MemberEnd(); itr++)
@@ -48,18 +52,22 @@ bool ChoiceLayer::init()
 		view.push_back(std::make_pair(name, res));
 	}
 
+	//スライドビューの作成
 	const rapidjson::Value& slideSetting = choiceDoc["slideView"];
 	slider = SliderLayer::create();
 	slider->setSliderNum((int)view.size());
 	slider->setSliderSpan(slideSetting["span"].GetInt());
-	slider->setSlideViewPosition(Vec2(visibleSize.width * slideSetting["position"]["x"].GetFloat(), visibleSize.height * slideSetting["position"]["y"].GetFloat()));
+	slider->setSlideViewPosition(Vec2(visibleSize.width * slideSetting["position"]["x"].GetFloat(), 
+									  visibleSize.height * slideSetting["position"]["y"].GetFloat()));
 	slider->AddSlide(view);
 	this->addChild(slider);
 
+	//もどるボタンの作成
 	const rapidjson::Value& decision = choiceDoc["uiButton"];
 	this->DecisionButtonInit(decision);
 
-	ManagingSound::GetInstance()->PlayBgm("sound/BGM/selectSceneBGM", 0.5f, true, 0.5f);
+	//BGMの再生
+	ManagingSound::GetInstance()->PlayBgm("BGM/selectSceneBGM", 0.5f, true, 0.5f);
 
 	return true;
 }
@@ -67,13 +75,16 @@ bool ChoiceLayer::init()
 void ChoiceLayer::DecisionButtonInit(const rapidjson::Value& decision)
 {
 	auto decisionButton = cocos2d::ui::Button::create(decision["res"].GetString());
-	decisionButton->setPosition(Vec2(visibleSize.width * decision["position"]["x"].GetFloat(), visibleSize.height * decision["position"]["y"].GetFloat()));
+	decisionButton->setPosition(Vec2(visibleSize.width * decision["position"]["x"].GetFloat(), 
+									 visibleSize.height * decision["position"]["y"].GetFloat()));
 	decisionButton->setTitleFontName(UserData::GetInstance()->DefaultFontName());
 	decisionButton->setTitleText(decision["fontText"].GetString());
 	decisionButton->setTitleFontSize(decision["fontSize"].GetFloat());
-	decisionButton->setTitleColor(Color3B(decision["color"]["red"].GetFloat(), decision["color"]["green"].GetFloat(), decision["color"]["blue"].GetFloat()));
-	decisionButton->addTouchEventListener([this](cocos2d::Ref* sender, cocos2d::ui::Button::TouchEventType type)
-	{
+	decisionButton->setTitleColor(Color3B(decision["color"]["red"].GetFloat(), 
+										  decision["color"]["green"].GetFloat(), 
+										  decision["color"]["blue"].GetFloat()));
+	decisionButton->addTouchEventListener([this](cocos2d::Ref* sender, 
+												 cocos2d::ui::Button::TouchEventType type) {
 		switch (type)
 		{
 		case cocos2d::ui::Button::TouchEventType::ENDED:

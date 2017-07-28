@@ -15,9 +15,10 @@ GachaButton::~GachaButton()
 
 bool GachaButton::init(std::string imageFileName)
 {
+	//このSpriteの設定
 	if (ui::Button::init(imageFileName))
 	{
-		this->setTitleText("まわす");
+		this->setTitleText(u8"まわす");
 
 		this->setTitleColor(Color3B::BLACK);
 

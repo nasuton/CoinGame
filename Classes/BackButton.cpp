@@ -17,7 +17,7 @@ bool BackButton::init(std::string imageFileName)
 {
 	if (ui::Button::init(imageFileName))
 	{
-		this->setTitleText("もどる");
+		this->setTitleText(u8"もどる");
 
 		this->setTitleColor(Color3B::BLACK);
 

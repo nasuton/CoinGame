@@ -1,4 +1,4 @@
-#include "LeverLeft.h"
+﻿#include "LeverLeft.h"
 #include "ManagingSound.h"
 
 USING_NS_CC;
@@ -18,12 +18,14 @@ LeverLeft::~LeverLeft()
 void LeverLeft::TouchBegan(cocos2d::Touch *touch)
 {
 	touchLocation = touch->getLocation();
-
+	
+	//触ってればtrueにする
 	isTouchLever = true;
 }
 
 void LeverLeft::TouchMoved(cocos2d::Touch *touch)
 {
+	//動かした分だけレバーを回転させる
 	Vec2 location = touch->getLocation();
 
 	if (isTouchLever)
@@ -42,6 +44,7 @@ void LeverLeft::TouchMoved(cocos2d::Touch *touch)
 
 void LeverLeft::TouchEnded(cocos2d::Touch *touch)
 {
+	//動かした分だけコインに力を加える
 	Vec2 location = touch->getLocation();
 
 	if (isTouchLever)
@@ -60,7 +63,7 @@ void LeverLeft::TouchEnded(cocos2d::Touch *touch)
 			getTarget()->getPhysicsBody()->applyImpulse(Vec2(400.0f * (distance / 100.0f) * 1.0f, 0.0f));
 		}
 
-		ManagingSound::GetInstance()->PlaySe("sound/SE/lever.m4a", false);
+		ManagingSound::GetInstance()->PlaySe("SE/lever.m4a", false);
 
 		isTouchLever = false;
 	}

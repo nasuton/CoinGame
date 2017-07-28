@@ -1,4 +1,4 @@
-#include "Probability.h"
+﻿#include "Probability.h"
 
 #include <random>
 #include <math.h>
@@ -15,6 +15,7 @@ Probability::~Probability()
 
 std::string Probability::SelectOne(std::map<std::string, float> const& targetDict)
 {
+	//計算をしてStringを返す
 	float total = 0.0f;
 	for (auto itr = targetDict.begin(); itr != targetDict.end(); itr++)
 	{
@@ -41,6 +42,7 @@ std::string Probability::SelectOne(std::map<std::string, float> const& targetDic
 
 bool Probability::PercentJudgment(float percent)
 {
+	//確率によってtureかfalseを返す
 	int decimalPoint = 1;
 
 	int rate = (int)powf(10, decimalPoint);

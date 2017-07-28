@@ -1,4 +1,4 @@
-#ifndef SceneBase_h
+﻿#ifndef SceneBase_h
 #define SceneBase_h
 
 #include "cocos2d.h"
@@ -10,9 +10,11 @@ public:
 	virtual ~SceneBase();
 
 protected:
+	//Layerを追加する
 	template <class LayerClass>
 	static cocos2d::Layer* CreateLayer();
 
+	//GameSceneの際のLayer追加
 	template <class LayerClass>
 	static cocos2d::Layer* CreateLayer(int num);
 };

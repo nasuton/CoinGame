@@ -1,4 +1,4 @@
-#ifndef TenYenStage_h
+﻿#ifndef TenYenStage_h
 #define TenYenStage_h
 
 #include "SceneBase.h"
@@ -9,6 +9,7 @@ public:
 	TenYenStageScene();
 	virtual ~TenYenStageScene();
 
+	//シーンの作成
 	static cocos2d::Scene* SceneCreate(int num);
 };
 

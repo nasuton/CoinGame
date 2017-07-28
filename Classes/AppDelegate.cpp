@@ -1,4 +1,4 @@
-#include "AppDelegate.h"
+﻿#include "AppDelegate.h"
 #include "EnvironmentDefaultData.h"
 #include "TitleScene.h"
 #include "UserData.h"
@@ -93,6 +93,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     register_all_packages();
 
+	//プラットフォームによって読み込むファイルを分ける
 	std::vector<std::string> searchPath;
 	auto platform = Application::getInstance()->getTargetPlatform();
 	switch (platform)
@@ -114,7 +115,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 		break;
 
 	case Application::Platform::OS_WINDOWS:
-		searchPath.push_back("Windows");
+		searchPath.push_back("Android");
 		searchPath.push_back("json");
 		searchPath.push_back("sound/Windows");
 		searchPath.push_back("fonts");
@@ -123,16 +124,19 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	default:
 		break;
 	}
+	//上記で分けたpathで探すようにする
 	FileUtils::getInstance()->setSearchPaths(searchPath);
 
+	//解像度を取得する
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 	UserData::GetInstance()->SetResolutionSize(visibleSize);
+	//plistを作成する
 	UserData::GetInstance()->CreatePlist();
 
-    // create a scene. it's an autorelease object
+    //最初に流すsceneを作成
 	auto scene = TitleScene::SceneCreate();
 
-    //// run
+    //その作ったシーンを実際に動かす
     director->runWithScene(scene);
 
     return true;

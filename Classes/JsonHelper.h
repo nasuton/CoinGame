@@ -1,4 +1,4 @@
-#ifndef JsonHelper_h
+﻿#ifndef JsonHelper_h
 #define JsonHelper_h
 
 #include "cocos2d.h"
@@ -9,6 +9,7 @@
 class JsonHelper
 {
 public:
+	//jsonを使う際の手順をまとめた
 	template<unsigned Flag>
 	static rapidjson::Document DocumentParse(std::string jsonName);
 };

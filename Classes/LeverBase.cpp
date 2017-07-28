@@ -1,9 +1,10 @@
-#include "LeverBase.h"
+﻿#include "LeverBase.h"
 
 USING_NS_CC;
 
 LeverBase::LeverBase()
 {
+	//touchイベントの追加
 	touchListener = EventListenerTouchOneByOne::create();
 	touchListener->onTouchBegan = CC_CALLBACK_2(LeverBase::onTouchBegan, this);
 	touchListener->onTouchMoved = CC_CALLBACK_2(LeverBase::onTouchMoved, this);
@@ -14,6 +15,7 @@ LeverBase::LeverBase()
 
 LeverBase::~LeverBase()
 {
+	//touchを削除
 	Director::getInstance()->getEventDispatcher()->removeEventListener(touchListener);
 }
 
@@ -33,6 +35,7 @@ bool LeverBase::init(std::string imageFileName)
 
 bool LeverBase::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event)
 {
+	//レバーを触っているかどうか判定する
 	Vec2 location = touch->getLocation();
 
 	Rect rect = this->getBoundingBox();

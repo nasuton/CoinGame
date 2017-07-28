@@ -1,4 +1,4 @@
-#include "PrizeSprite.h"
+﻿#include "PrizeSprite.h"
 
 USING_NS_CC;
 
@@ -17,6 +17,7 @@ bool PrizeSprite::init(std::string imageFileName)
 {
 	if (Sprite::initWithFile(imageFileName))
 	{
+		//剛体をつける
 		PhysicsBody* giftPhysics = PhysicsBody::createBox(this->getContentSize(), PhysicsMaterial(0.6f, 0.3f, 6.0f));
 		giftPhysics->setMass(1.0f);
 		giftPhysics->setMoment(10.0f);
@@ -25,6 +26,7 @@ bool PrizeSprite::init(std::string imageFileName)
 		giftPhysics->setContactTestBitmask(2);
 		this->setPhysicsBody(giftPhysics);
 
+		//一定時間後に実行
 		scheduleOnce(schedule_selector(PrizeSprite::Disappear), timeToRun);
 
 		return true;
@@ -37,6 +39,6 @@ bool PrizeSprite::init(std::string imageFileName)
 
 void PrizeSprite::Disappear(float delta)
 {
-	auto removeSprite = RemoveSelf::create();
-	this->runAction(removeSprite);
+	//自身を削除
+	this->removeFromParentAndCleanup(true);
 }

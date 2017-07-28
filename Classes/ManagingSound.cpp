@@ -1,4 +1,4 @@
-#include "ManagingSound.h"
+﻿#include "ManagingSound.h"
 #include "FindLength.h"
 #include "JsonHelper.h"
 
@@ -60,6 +60,7 @@ void ManagingSound::DeleteInstance()
 
 void ManagingSound::update(float delta)
 {
+	//fadeIn or fadeOutさせるため
 	switch (fadeCondition)
 	{
 	case FadeType::FADE_IN:

@@ -10,6 +10,7 @@ ScrollViewLayer::ScrollViewLayer()
 	,interval(15.0f)
 	,isMove(false)
 {
+	//touchを追加
 	touchListener = EventListenerTouchOneByOne::create();
 	touchListener->onTouchBegan = CC_CALLBACK_2(ScrollViewLayer::onTouchBegan, this);
 	touchListener->onTouchMoved = CC_CALLBACK_2(ScrollViewLayer::onTouchMoved, this);
@@ -20,6 +21,7 @@ ScrollViewLayer::ScrollViewLayer()
 
 ScrollViewLayer::~ScrollViewLayer()
 {
+	//touchを削除
 	Director::getInstance()->getEventDispatcher()->removeEventListener(touchListener);
 }
 
@@ -30,6 +32,7 @@ bool ScrollViewLayer::init()
 		return false;
 	}
 
+	//解像度の取得
 	visibleSize = UserData::GetInstance()->GetResolutionSize();
 
 	return true;
@@ -47,13 +50,19 @@ bool ScrollViewLayer::GetMove()
 
 void ScrollViewLayer::AddScrollLayer(const std::vector<cocos2d::ui::Button*>& collectionButton)
 {
-	magnificationHeight = (((collectionButton[0]->getContentSize().height + interval) * (int)collectionButton.size()) + interval) / visibleSize.height;
+	//どれくらい伸ばすかを計算する
+	magnificationHeight = (((collectionButton[0]->getContentSize().height + interval) * 
+						  (int)collectionButton.size()) + interval) / visibleSize.height;
 
-	float temporary = (visibleSize.height * magnificationHeight) - (collectionButton[0]->getContentSize().height * 0.5f) - interval;
+	//一番目のpositionY軸を計算で出す
+	float temporary = (visibleSize.height * magnificationHeight) - 
+					  (collectionButton[0]->getContentSize().height * 0.5f) - interval;
 
+	//それぞれを設置
 	for (int i = 0; i < collectionButton.size(); i++)
 	{
-		collectionButton[i]->setPosition(Vec2(visibleSize.width * 0.6f, temporary - ((collectionButton[i]->getContentSize().height + interval) * i)));
+		collectionButton[i]->setPosition(Vec2(visibleSize.width * 0.6f,
+											  temporary - ((collectionButton[i]->getContentSize().height + interval) * i)));
 		this->addChild(collectionButton[i]);
 	}
 }
@@ -74,6 +83,7 @@ void ScrollViewLayer::onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* unused
 {
 	Vec2 location = touch->getLocation();
 
+	//微量の移動をはじくため
 	if (10.0f < location.distance(touchLocation))
 	{
 		isMove = true;

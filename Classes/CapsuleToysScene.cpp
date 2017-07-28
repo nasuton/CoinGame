@@ -1,4 +1,4 @@
-#include "CapsuleToysScene.h"
+﻿#include "CapsuleToysScene.h"
 #include "CapsuleToysLayer.h"
 
 USING_NS_CC;
@@ -17,6 +17,7 @@ Scene* CapsuleToysScene::SceneCreate()
 {
 	Scene* scene = Scene::create();
 
+	//Layerをシーンの子として追加する
 	scene->addChild(CreateLayer<CapsuleToysLayer>());
 
 	return scene;

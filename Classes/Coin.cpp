@@ -1,4 +1,4 @@
-#include "Coin.h"
+﻿#include "Coin.h"
 #include "Probability.h"
 #include "ManagingSound.h"
 
@@ -40,6 +40,7 @@ bool Coin::init(std::string imageFileName)
 
 void Coin::CoinEntry(cocos2d::Vec2 pos)
 {
+	//coinのSpriteを変える
 	std::string reSprite = Probability::SelectOne(coinType);
 
 	this->getPhysicsBody()->resetForces();
@@ -71,12 +72,13 @@ void Coin::SetCoinVisible(bool visible)
 
 bool Coin::OnContactBegin(cocos2d::PhysicsContact &contact)
 {
+	//コインがぶつかったら音を鳴らす
 	auto bodyA = contact.getShapeA()->getBody();
 	auto bodyB = contact.getShapeB()->getBody();
 
 	if ("coin" == bodyA->getName() || "coin" == bodyB->getName())
 	{
-		ManagingSound::GetInstance()->PlaySe("sound/SE/coin_contact.m4a", false);
+		ManagingSound::GetInstance()->PlaySe("SE/coin_contact.m4a", false);
 	}
 
 	return true;

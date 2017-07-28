@@ -1,4 +1,4 @@
-#ifndef GachaButton_h
+﻿#ifndef GachaButton_h
 #define GachaButton_h
 
 #include "ui/CocosGUI.h"
@@ -11,6 +11,7 @@ public:
 
 	bool init(std::string imageFileName);
 
+	//このSpriteを作成させる関数
 	static GachaButton* CreateGacha(std::string imageFileName);
 };
 

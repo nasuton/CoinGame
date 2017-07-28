@@ -1,4 +1,4 @@
-#ifndef StageBase_h
+﻿#ifndef StageBase_h
 #define StageBase_h
 
 #include "LayerBase.h"
@@ -12,8 +12,10 @@ public:
 	bool init(int num);
 
 protected:
+	//継承先で呼ばれるUpDate
 	virtual void StageUpDate(float delta);
 
+	//継承先で呼ばれるSetUp
 	virtual void StageSetUp(int num);
 
 private:

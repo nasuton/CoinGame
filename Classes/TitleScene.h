@@ -1,4 +1,4 @@
-#ifndef TitleScene_h
+ï»¿#ifndef TitleScene_h
 #define TitleScene_h
 
 #include "SceneBase.h"
@@ -9,7 +9,7 @@ public:
 	TitleScene();
 	virtual ~TitleScene();
 
-	//ƒV[ƒ“‚Ìì¬
+	//ã‚·ãƒ¼ãƒ³ã®ä½œæˆ
 	static cocos2d::Scene* SceneCreate();
 };
 

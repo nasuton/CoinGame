@@ -32,6 +32,7 @@ void PhysicsLine::CreateLine(std::string fileName, float width, const Color4F& c
 {
 	std::vector<Vec2> drawData;
 
+	//読みこめるようにする
 	std::string filePath = FileUtils::getInstance()->getStringFromFile(fileName);
 	std::istringstream stream(filePath);
 	std::string sheetLine;

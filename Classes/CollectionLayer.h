@@ -1,4 +1,4 @@
-#ifndef CollectionLayer_h
+﻿#ifndef CollectionLayer_h
 #define CollectionLayer_h
 
 #include "LayerBase.h"
@@ -7,6 +7,7 @@
 class CollectionLayer : public LayerBase
 {
 private:
+	//スクロールビューのクラス
 	ScrollViewLayer* scrollViewLayer;
 
 public:

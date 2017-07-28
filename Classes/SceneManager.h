@@ -1,4 +1,4 @@
-#ifndef SceneManager_h
+﻿#ifndef SceneManager_h
 #define SceneManager_h
 
 #include "cocos2d.h"
@@ -9,20 +9,27 @@ public:
 	SceneManager();
 	virtual ~SceneManager();
 
+	//タイトルシーン
 	static void CreateTitleScene();
 
+	//選択シーン
 	static void CreateChoiceScene();
 
+	//ゲームシーン
 	static void CreateTenYenStageScene(int num);
 
+	//ガチャシーン
 	static void CreateCapsuleToyScene();
 
+	//コレクションシーン
 	static void CreateCollectionScene();
 
 private:
+	//シーンの作成
 	template<class Scene>
 	static cocos2d::Scene* SceneCreate();
 
+	//ゲームシーンの作成
 	template<class Scene>
 	static cocos2d::Scene* PhysicsSceneCreate(int num);
 };

@@ -1,4 +1,4 @@
-#ifndef CollectionScene_h
+﻿#ifndef CollectionScene_h
 #define CollectionScene_h
 
 #include "SceneBase.h"
@@ -9,6 +9,7 @@ public:
 	CollectionScene();
 	virtual ~CollectionScene();
 
+	//シーンを作成
 	static cocos2d::Scene* SceneCreate();
 };
 

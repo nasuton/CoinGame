@@ -10,6 +10,7 @@ SliderLayer::SliderLayer()
 	,sliderPosX(0)
 	,page(0)
 {
+	//touchを追加
 	touchListener = EventListenerTouchOneByOne::create();
 	touchListener->onTouchBegan = CC_CALLBACK_2(SliderLayer::onTouchBegan, this);
 	touchListener->onTouchMoved = CC_CALLBACK_2(SliderLayer::onTouchMoved, this);
@@ -21,6 +22,7 @@ SliderLayer::SliderLayer()
 
 SliderLayer::~SliderLayer()
 {
+	//touchを削除
 	Director::getInstance()->getEventDispatcher()->removeEventListener(touchListener);
 }
 
@@ -42,13 +44,16 @@ void SliderLayer::AddSlide(std::vector<std::pair<std::string, std::string>> &add
 {
 	for (int i = 0; i < addSlideView.size(); i++)
 	{
-		auto slideLabel = Label::createWithTTF(UserData::GetInstance()->DefaultTTF(40.0f), addSlideView[i].first);
+		Label* slideLabel = Label::createWithTTF(UserData::GetInstance()->DefaultTTF(40.0f), 
+												 addSlideView[i].first);
 		slideLabel->setColor(Color3B::BLACK);
-		slideLabel->setPosition(Vec2(slideViewPositon.x + (sliderSpan * i), slideViewPositon.y + 200.0f));
+		slideLabel->setPosition(Vec2(slideViewPositon.x + (sliderSpan * i), 
+									 slideViewPositon.y + 200.0f));
 		this->addChild(slideLabel);
 
-		auto slideSprite = Sprite::create(addSlideView[i].second);
-		slideSprite->setPosition(Vec2(slideViewPositon.x + (sliderSpan * i), slideViewPositon.y));
+		Sprite* slideSprite = Sprite::create(addSlideView[i].second);
+		slideSprite->setPosition(Vec2(slideViewPositon.x + (sliderSpan * i), 
+									  slideViewPositon.y));
 		this->addChild(slideSprite);
 	}
 }
@@ -60,7 +65,7 @@ int SliderLayer::GetPage()
 
 bool SliderLayer::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* unused_event)
 {
-	auto touchPoint = touch->getLocation();
+	Vec2 touchPoint = touch->getLocation();
 
 	sliderPosX = this->getPosition().x - touchPoint.x;
 
@@ -73,7 +78,7 @@ bool SliderLayer::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* unused_eve
 
 void SliderLayer::onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* unused_event)
 {
-	auto touchPoint = touch->getLocation();
+	Vec2 touchPoint = touch->getLocation();
 
 	this->setPosition(touchPoint.x + sliderPosX, 0);
 
@@ -115,16 +120,19 @@ void SliderLayer::onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* unused_eve
 		}
 	}
 
+	//実際に動かす関数
 	SlidePage();
 
 }
 
 void SliderLayer::onTouchCancelled(cocos2d::Touch* touch, cocos2d::Event* unused_event)
 {
+	//指を離した時と同じ
 	SlidePage();
 }
 
 void SliderLayer::SlidePage()
 {
+	//動かす
 	this->runAction(EaseOut::create(MoveTo::create(moveToDuration, Point(-sliderSpan * page, positionY)), easeOutTime));
 }

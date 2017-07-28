@@ -1,4 +1,4 @@
-#include "GachaHandleSprite.h"
+﻿#include "GachaHandleSprite.h"
 
 USING_NS_CC;
 
@@ -26,9 +26,10 @@ bool GachaHandleSprite::init(std::string imageFileName)
 
 void GachaHandleSprite::SpriteTouch()
 {
-	auto rotateAction = RotateBy::create(2.0f, 180.0f);
+	//touchされた場合は回す
+	RotateBy* rotateAction = RotateBy::create(2.0f, 180.0f);
 
-	auto sequen = Sequence::create(rotateAction, rotateAction, NULL);
+	Sequence* sequen = Sequence::create(rotateAction, rotateAction, NULL);
 
 	this->runAction(sequen);
 }

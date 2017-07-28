@@ -1,4 +1,4 @@
-#ifndef GachaHandleSprite_h
+﻿#ifndef GachaHandleSprite_h
 #define GachaHandleSprite_h
 
 #include "SpriteCreator.h"
@@ -11,6 +11,7 @@ public:
 
 	bool init(std::string imageFileName);
 
+	//Spriteをtouchした場合
 	void SpriteTouch();
 };
 

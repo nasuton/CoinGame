@@ -1,9 +1,10 @@
-#include "ModalLayerBase.h"
+﻿#include "ModalLayerBase.h"
 
 USING_NS_CC;
 
 ModalLayerBase::ModalLayerBase()
 {
+	//ModalLayerにするための設定
 	touchListener = EventListenerTouchOneByOne::create();
 	touchListener->setSwallowTouches(true);
 	touchListener->onTouchBegan = CC_CALLBACK_2(ModalLayerBase::onTouchBegan, this);

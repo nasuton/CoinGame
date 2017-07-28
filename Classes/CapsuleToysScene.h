@@ -1,4 +1,4 @@
-#ifndef CapsuleToysScene_h
+﻿#ifndef CapsuleToysScene_h
 #define CapsuleToysScene_h
 
 #include "SceneBase.h"
@@ -9,6 +9,7 @@ public:
 	CapsuleToysScene();
 	virtual ~CapsuleToysScene();
 
+	//シーンの作成
 	static cocos2d::Scene* SceneCreate();
 };
 

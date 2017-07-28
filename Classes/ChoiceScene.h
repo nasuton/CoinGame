@@ -1,4 +1,4 @@
-#ifndef ChoiceScene_h
+﻿#ifndef ChoiceScene_h
 #define ChoiceScene_h
 
 #include "SceneBase.h"
@@ -9,6 +9,7 @@ public:
 	ChoiceScene();
 	virtual ~ChoiceScene();
 
+	//シーンの作成
 	static cocos2d::Scene* SceneCreate();
 };
 
