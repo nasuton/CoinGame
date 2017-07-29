@@ -9,3 +9,5 @@ Androidで起動したい場合は、Android-Studioでproj.android-studioを開�
 *.cppや*.hはClasses内に入っています。
 
 画像などはResourcesにあります。
+
+初期のビルドは、すごく時間がかかります。
