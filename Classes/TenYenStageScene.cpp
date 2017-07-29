@@ -26,7 +26,7 @@ Scene* TenYenStageScene::SceneCreate(int num)
 	world->setSubsteps(5);
 
 	//デバックように剛体を表示する
-	//world->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
+	world->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
 
 	//シーンLayerを子として追加する
 	scene->addChild(CreateLayer<TenYenStageLayer>(num));
