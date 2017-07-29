@@ -59,7 +59,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto glview = director->getOpenGLView();
     if(!glview) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
-        glview = GLViewImpl::createWithRect(evn->gameName, cocos2d::Rect(0, 0, evn->largeResolutionSize.width, evn->largeResolutionSize.height));
+        glview = GLViewImpl::createWithRect(evn->gameName, 
+											cocos2d::Rect(0, 0, 
+														evn->largeResolutionSize.width, 
+														evn->largeResolutionSize.height));
 #else
         glview = GLViewImpl::create(evn->gameName);
 #endif
@@ -73,22 +76,27 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0f / 60);
 
     // Set the design resolution
-    glview->setDesignResolutionSize(evn->designResolutionSize.width, evn->designResolutionSize.height, ResolutionPolicy::NO_BORDER);
+    glview->setDesignResolutionSize(evn->mediumResolutionSize.width, 
+									evn->mediumResolutionSize.height, 
+									ResolutionPolicy::NO_BORDER);
     auto frameSize = glview->getFrameSize();
     // if the frame's height is larger than the height of medium size.
     if (frameSize.height > evn->mediumResolutionSize.height)
     {        
-        director->setContentScaleFactor(MIN(evn->largeResolutionSize.height/evn->designResolutionSize.height, evn->largeResolutionSize.width/evn->designResolutionSize.width));
+        director->setContentScaleFactor(MIN(evn->largeResolutionSize.height/evn->designResolutionSize.height, 
+											evn->largeResolutionSize.width/evn->designResolutionSize.width));
     }
     // if the frame's height is larger than the height of small size.
     else if (frameSize.height > evn->smallResolutionSize.height)
     {        
-        director->setContentScaleFactor(MIN(evn->mediumResolutionSize.height/evn->designResolutionSize.height, evn->mediumResolutionSize.width/evn->designResolutionSize.width));
+        director->setContentScaleFactor(MIN(evn->mediumResolutionSize.height/evn->designResolutionSize.height, 
+											evn->mediumResolutionSize.width/evn->designResolutionSize.width));
     }
     // if the frame's height is smaller than the height of medium size.
     else
     {        
-        director->setContentScaleFactor(MIN(evn->smallResolutionSize.height/evn->designResolutionSize.height, evn->smallResolutionSize.width/evn->designResolutionSize.width));
+        director->setContentScaleFactor(MIN(evn->smallResolutionSize.height/evn->designResolutionSize.height, 
+											evn->smallResolutionSize.width/evn->designResolutionSize.width));
     }
 
     register_all_packages();
