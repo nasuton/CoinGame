@@ -1,7 +1,7 @@
 ﻿#include "AppDelegate.h"
-#include "EnvironmentDefaultData.h"
-#include "TitleScene.h"
-#include "UserData.h"
+#include "Other/System/EnvironmentDefaultData.h"
+#include "Title/Scene/TitleScene.h"
+#include "Other/UserData/UserData.h"
 
 #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
