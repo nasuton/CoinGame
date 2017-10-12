@@ -1,0 +1,7 @@
+﻿  CollectionLayer.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  CoinGame.vcxproj -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\CoinGame.exe
+  CoinGame.vcxproj -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\CoinGame.pdb (Full PDB)
+  0 個のファイルをコピーしました
