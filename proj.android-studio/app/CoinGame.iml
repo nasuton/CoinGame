@@ -36,6 +36,75 @@
     <content url="file://$MODULE_DIR$/../../Classes">
       <sourceFolder url="file://$MODULE_DIR$/../../Classes" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene/Layer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene/Layer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene/ModalLayer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene/ModalLayer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene/Scene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CapsuleToysScene/Scene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/ChoiceScene/Layer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/ChoiceScene/Layer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/ChoiceScene/Scene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/ChoiceScene/Scene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CollectionScene/Layer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CollectionScene/Layer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CollectionScene/ModalLayer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CollectionScene/ModalLayer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/CollectionScene/Scene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/CollectionScene/Scene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/GameScene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/GameScene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/GameScene/Lever">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/GameScene/Lever" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/GameScene/Stage">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/GameScene/Stage" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/GameScene/Stage/TenYenStage/Layer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/GameScene/Stage/TenYenStage/Layer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/GameScene/Stage/TenYenStage/Scene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/GameScene/Stage/TenYenStage/Scene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other/Audio">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other/Audio" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other/CSV">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other/CSV" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other/LayerBase">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other/LayerBase" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other/Scene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other/Scene" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other/System">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other/System" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Other/UserData">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Other/UserData" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Title/Layer">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Title/Layer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../Classes/Title/Scene">
+      <sourceFolder url="file://$MODULE_DIR$/../../Classes/Title/Scene" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../Resources">
       <sourceFolder url="file://$MODULE_DIR$/../../Resources" type="java-resource" />
     </content>
@@ -436,6 +505,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
