@@ -89,13 +89,13 @@
       <UniqueIdentifier>{cddea0d3-d69a-41ac-a9c1-e7f514bca4df}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\CapsuleToysScene\Layer">
-      <UniqueIdentifier>{18cef3ad-7ea1-41fa-a340-9e6f29308fbd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\CapsuleToysScene\Scene">
-      <UniqueIdentifier>{21f1d397-5a35-45e7-bb8e-cf429b46a3b3}</UniqueIdentifier>
+      <UniqueIdentifier>{6224c25b-6633-4193-aa14-040d20234aea}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\CapsuleToysScene\ModalLayer">
-      <UniqueIdentifier>{1fa8696a-2f59-4949-aa88-44aac0196cef}</UniqueIdentifier>
+      <UniqueIdentifier>{d03b9006-1332-427b-955d-f346d05d366a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CapsuleToysScene\Scene">
+      <UniqueIdentifier>{6a75770a-b81c-48fa-9a08-97143e225208}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -105,101 +105,101 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\TitleLayer.cpp">
-      <Filter>src\TitleScene\Layer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\TitleScene.cpp">
-      <Filter>src\TitleScene\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\BackButton.cpp">
-      <Filter>src\Other</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ManagingSound.cpp">
-      <Filter>src\Other\Audio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\PhysicsLine.cpp">
-      <Filter>src\Other\CSV</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\LayerBase.cpp">
-      <Filter>src\Other\LayerBase</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\UserData.cpp">
-      <Filter>src\Other\UserData</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\SceneBase.cpp">
-      <Filter>src\Other\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\SceneManager.cpp">
-      <Filter>src\Other\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\EnvironmentDefaultData.cpp">
-      <Filter>src\Other\System</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Probability.cpp">
-      <Filter>src\Other\System</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Coin.cpp">
-      <Filter>src\GameScene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\PrizeSprite.cpp">
-      <Filter>src\GameScene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\LeverBase.cpp">
-      <Filter>src\GameScene\Lever</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\LeverLeft.cpp">
-      <Filter>src\GameScene\Lever</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\LeverRight.cpp">
-      <Filter>src\GameScene\Lever</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\StageBase.cpp">
-      <Filter>src\GameScene\Stage</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\TenYenStageLayer.cpp">
-      <Filter>src\GameScene\Stage\TenYenStage\Layer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\TenYenStageScene.cpp">
-      <Filter>src\GameScene\Stage\TenYenStage\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\CollectionLayer.cpp">
-      <Filter>src\CollectionScene\Layer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\CollectionModalLayer.cpp">
-      <Filter>src\CollectionScene\ModalLayer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\CollectionScene.cpp">
-      <Filter>src\CollectionScene\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ChoiceLayer.cpp">
-      <Filter>src\ChoiceScene\Layer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\SliderLayer.cpp">
-      <Filter>src\ChoiceScene\Layer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ChoiceScene.cpp">
-      <Filter>src\ChoiceScene\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\GachaButton.cpp">
+    <ClCompile Include="..\Classes\CapsuleToysScene\GachaButton.cpp">
       <Filter>src\CapsuleToysScene</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\GachaHandleSprite.cpp">
+    <ClCompile Include="..\Classes\CapsuleToysScene\GachaHandleSprite.cpp">
       <Filter>src\CapsuleToysScene</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\CapsuleToysScene.cpp">
-      <Filter>src\CapsuleToysScene\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\CapsuleToysModalLayer.cpp">
+    <ClCompile Include="..\Classes\CapsuleToysScene\ModalLayer\CapsuleToysModalLayer.cpp">
       <Filter>src\CapsuleToysScene\ModalLayer</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\CapsuleToysLayer.cpp">
+    <ClCompile Include="..\Classes\CapsuleToysScene\Layer\CapsuleToysLayer.cpp">
       <Filter>src\CapsuleToysScene\Layer</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\ModalLayerBase.cpp">
+    <ClCompile Include="..\Classes\CapsuleToysScene\Scene\CapsuleToysScene.cpp">
+      <Filter>src\CapsuleToysScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ChoiceScene\Layer\ChoiceLayer.cpp">
+      <Filter>src\ChoiceScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ChoiceScene\Scene\ChoiceScene.cpp">
+      <Filter>src\ChoiceScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollectionScene\Layer\CollectionLayer.cpp">
+      <Filter>src\CollectionScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollectionScene\Layer\ScrollViewLayer.cpp">
+      <Filter>src\CollectionScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollectionScene\ModalLayer\CollectionModalLayer.cpp">
+      <Filter>src\CollectionScene\ModalLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollectionScene\Scene\CollectionScene.cpp">
+      <Filter>src\CollectionScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Lever\LeverBase.cpp">
+      <Filter>src\GameScene\Lever</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Lever\LeverLeft.cpp">
+      <Filter>src\GameScene\Lever</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Lever\LeverRight.cpp">
+      <Filter>src\GameScene\Lever</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Stage\StageBase.cpp">
+      <Filter>src\GameScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Coin.cpp">
+      <Filter>src\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\PrizeSprite.cpp">
+      <Filter>src\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Stage\TenYenStage\Layer\TenYenStageLayer.cpp">
+      <Filter>src\GameScene\Stage\TenYenStage\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene\Stage\TenYenStage\Scene\TenYenStageScene.cpp">
+      <Filter>src\GameScene\Stage\TenYenStage\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ChoiceScene\Layer\SliderLayer.cpp">
+      <Filter>src\ChoiceScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Title\Layer\TitleLayer.cpp">
+      <Filter>src\TitleScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Title\Scene\TitleScene.cpp">
+      <Filter>src\TitleScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\CSV\PhysicsLine.cpp">
+      <Filter>src\Other\CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\LayerBase\LayerBase.cpp">
       <Filter>src\Other\LayerBase</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\ScrollViewLayer.cpp">
-      <Filter>src\CollectionScene\Layer</Filter>
+    <ClCompile Include="..\Classes\Other\LayerBase\ModalLayerBase.cpp">
+      <Filter>src\Other\LayerBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\Scene\SceneBase.cpp">
+      <Filter>src\Other\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\Scene\SceneManager.cpp">
+      <Filter>src\Other\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\System\EnvironmentDefaultData.cpp">
+      <Filter>src\Other\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\System\Probability.cpp">
+      <Filter>src\Other\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\UserData\UserData.cpp">
+      <Filter>src\Other\UserData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\BackButton.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Other\Audio\ManagingSound.cpp">
+      <Filter>src\Other\Audio</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -209,110 +209,110 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\TitleLayer.h">
-      <Filter>src\TitleScene\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\TitleScene.h">
-      <Filter>src\TitleScene\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\BackButton.h">
-      <Filter>src\Other</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ManagingSound.h">
-      <Filter>src\Other\Audio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\PhysicsLine.h">
-      <Filter>src\Other\CSV</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\JsonHelper.h">
-      <Filter>src\Other\Json</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LayerBase.h">
-      <Filter>src\Other\LayerBase</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\UserData.h">
-      <Filter>src\Other\UserData</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\SpriteCreator.h">
-      <Filter>src\Other\SpriteBase</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\SceneBase.h">
-      <Filter>src\Other\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\SceneManager.h">
-      <Filter>src\Other\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\EnvironmentDefaultData.h">
-      <Filter>src\Other\System</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\FindLength.h">
-      <Filter>src\Other\System</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Probability.h">
-      <Filter>src\Other\System</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Coin.h">
-      <Filter>src\GameScene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\PrizeSprite.h">
-      <Filter>src\GameScene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LeverBase.h">
-      <Filter>src\GameScene\Lever</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LeverLeft.h">
-      <Filter>src\GameScene\Lever</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LeverRight.h">
-      <Filter>src\GameScene\Lever</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\StageBase.h">
-      <Filter>src\GameScene\Stage</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\TenYenStageLayer.h">
-      <Filter>src\GameScene\Stage\TenYenStage\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\TenYenStageScene.h">
-      <Filter>src\GameScene\Stage\TenYenStage\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\CollectionLayer.h">
-      <Filter>src\CollectionScene\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\CollectionModalLayer.h">
-      <Filter>src\CollectionScene\ModalLayer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\CollectionScene.h">
-      <Filter>src\CollectionScene\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ChoiceLayer.h">
-      <Filter>src\ChoiceScene\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\SliderLayer.h">
-      <Filter>src\ChoiceScene\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ChoiceScene.h">
-      <Filter>src\ChoiceScene\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\GachaButton.h">
+    <ClInclude Include="..\Classes\CapsuleToysScene\GachaButton.h">
       <Filter>src\CapsuleToysScene</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GachaHandleSprite.h">
+    <ClInclude Include="..\Classes\CapsuleToysScene\GachaHandleSprite.h">
       <Filter>src\CapsuleToysScene</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\CapsuleToysScene.h">
-      <Filter>src\CapsuleToysScene\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\CapsuleToysModalLayer.h">
+    <ClInclude Include="..\Classes\CapsuleToysScene\ModalLayer\CapsuleToysModalLayer.h">
       <Filter>src\CapsuleToysScene\ModalLayer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\CapsuleToysLayer.h">
+    <ClInclude Include="..\Classes\CapsuleToysScene\Layer\CapsuleToysLayer.h">
       <Filter>src\CapsuleToysScene\Layer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\ModalLayerBase.h">
+    <ClInclude Include="..\Classes\CapsuleToysScene\Scene\CapsuleToysScene.h">
+      <Filter>src\CapsuleToysScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChoiceScene\Layer\ChoiceLayer.h">
+      <Filter>src\ChoiceScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChoiceScene\Scene\ChoiceScene.h">
+      <Filter>src\ChoiceScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollectionScene\Layer\CollectionLayer.h">
+      <Filter>src\CollectionScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollectionScene\Layer\ScrollViewLayer.h">
+      <Filter>src\CollectionScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollectionScene\ModalLayer\CollectionModalLayer.h">
+      <Filter>src\CollectionScene\ModalLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollectionScene\Scene\CollectionScene.h">
+      <Filter>src\CollectionScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Lever\LeverBase.h">
+      <Filter>src\GameScene\Lever</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Lever\LeverLeft.h">
+      <Filter>src\GameScene\Lever</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Lever\LeverRight.h">
+      <Filter>src\GameScene\Lever</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Stage\StageBase.h">
+      <Filter>src\GameScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Coin.h">
+      <Filter>src\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\PrizeSprite.h">
+      <Filter>src\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Stage\TenYenStage\Layer\TenYenStageLayer.h">
+      <Filter>src\GameScene\Stage\TenYenStage\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene\Stage\TenYenStage\Scene\TenYenStageScene.h">
+      <Filter>src\GameScene\Stage\TenYenStage\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChoiceScene\Layer\SliderLayer.h">
+      <Filter>src\ChoiceScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Title\Layer\TitleLayer.h">
+      <Filter>src\TitleScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Title\Scene\TitleScene.h">
+      <Filter>src\TitleScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\CSV\PhysicsLine.h">
+      <Filter>src\Other\CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\Json\JsonHelper.h">
+      <Filter>src\Other\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\LayerBase\LayerBase.h">
       <Filter>src\Other\LayerBase</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\ScrollViewLayer.h">
-      <Filter>src\CollectionScene\Layer</Filter>
+    <ClInclude Include="..\Classes\Other\LayerBase\ModalLayerBase.h">
+      <Filter>src\Other\LayerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\Scene\SceneBase.h">
+      <Filter>src\Other\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\Scene\SceneManager.h">
+      <Filter>src\Other\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\SpriteBase\SpriteCreator.h">
+      <Filter>src\Other\SpriteBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\System\EnvironmentDefaultData.h">
+      <Filter>src\Other\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\System\FindLength.h">
+      <Filter>src\Other\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\System\Probability.h">
+      <Filter>src\Other\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\UserData\UserData.h">
+      <Filter>src\Other\UserData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\BackButton.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Other\Audio\ManagingSound.h">
+      <Filter>src\Other\Audio</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
