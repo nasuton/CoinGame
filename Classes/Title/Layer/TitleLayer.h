@@ -1,4 +1,4 @@
-﻿#ifndef TitleLayer_h
+#ifndef TitleLayer_h
 #define TitleLayer_h
 
 #include "Other/LayerBase/LayerBase.h"

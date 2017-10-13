@@ -1,4 +1,4 @@
-﻿#include "Title/Layer/TitleLayer.h"
+#include "Title/Layer/TitleLayer.h"
 #include "Other/Audio/ManagingSound.h"
 #include "Other/UserData/UserData.h"
 #include "Other/Scene/SceneManager.h"
