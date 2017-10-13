@@ -421,7 +421,7 @@ std::string ManagingSound::GetExtension(ManagingSound::AudioType type, std::stri
 	switch (platform)
 	{
 	case ApplicationProtocol::Platform::OS_WINDOWS:
-		if (FileUtils::getInstance()->isFileExist(audioName + ".wav"))
+		if (FileUtils::getInstance()->isFileExist(audioName + ".mp3"))
 		{
 			extension = ".mp3";
 		}
