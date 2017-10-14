@@ -1,4 +1,4 @@
-﻿#include "AppDelegate.h"
+#include "AppDelegate.h"
 #include "Other/System/EnvironmentDefaultData.h"
 #include "Title/Scene/TitleScene.h"
 #include "Other/UserData/UserData.h"
@@ -54,15 +54,25 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
 	auto evn = EnvironmentDefaultData::GetInstance();
 	
+    //プラットフォーム、解像度によって読み込むファイルを分ける
+    std::vector<std::string> searchPath;
+    
 	// initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
+        
+        
+        
         glview = GLViewImpl::createWithRect(evn->gameName, 
 											cocos2d::Rect(0, 0, 
-														evn->largeResolutionSize.width, 
-														evn->largeResolutionSize.height));
+														evn->smallResolutionSize.width,
+														evn->smallResolutionSize.height));
+        
+        searchPath.push_back("mediumResolutionSize");
+        searchPath.push_back("sound/PC");
+        
 #else
         glview = GLViewImpl::create(evn->gameName);
 #endif
@@ -85,53 +95,42 @@ bool AppDelegate::applicationDidFinishLaunching() {
     {        
         director->setContentScaleFactor(MIN(evn->largeResolutionSize.height/evn->designResolutionSize.height, 
 											evn->largeResolutionSize.width/evn->designResolutionSize.width));
+        searchPath.push_back("largeResolutionSize");
     }
     // if the frame's height is larger than the height of small size.
     else if (frameSize.height > evn->smallResolutionSize.height)
     {        
         director->setContentScaleFactor(MIN(evn->mediumResolutionSize.height/evn->designResolutionSize.height, 
 											evn->mediumResolutionSize.width/evn->designResolutionSize.width));
+        searchPath.push_back("mediumResolutionSize");
     }
     // if the frame's height is smaller than the height of medium size.
     else
     {        
         director->setContentScaleFactor(MIN(evn->smallResolutionSize.height/evn->designResolutionSize.height, 
 											evn->smallResolutionSize.width/evn->designResolutionSize.width));
+        searchPath.push_back("smallResolutionSize");
     }
 
     register_all_packages();
 
-	//プラットフォームによって読み込むファイルを分ける
-	std::vector<std::string> searchPath;
+	
 	auto platform = Application::getInstance()->getTargetPlatform();
 	switch (platform)
 	{
-	case Application::Platform::OS_ANDROID:
-		searchPath.push_back("Android");
-		searchPath.push_back("json");
-		searchPath.push_back("fonts");
+        case Application::Platform::OS_ANDROID:
+        case Application::Platform::OS_IPHONE:
+        case Application::Platform::OS_IPAD:
 		searchPath.push_back("sound/Smartphone");
-		searchPath.push_back("stageData");
-		break;
-		
-	case Application::Platform::OS_IPHONE:
-		searchPath.push_back("ios");
-		searchPath.push_back("json");
-		searchPath.push_back("fonts");
-		searchPath.push_back("sound/Smartphone");
-		searchPath.push_back("stageData");
-		break;
-
-	case Application::Platform::OS_WINDOWS:
-		searchPath.push_back("Android");
-		searchPath.push_back("json");
-		searchPath.push_back("sound/Windows");
-		searchPath.push_back("fonts");
-		searchPath.push_back("stageData");
-		break;
-	default:
-		break;
+            break;
+        default:
+            break;
 	}
+    
+    searchPath.push_back("json");
+    searchPath.push_back("fonts");
+    searchPath.push_back("stageData");
+    
 	//上記で分けたpathで探すようにする
 	FileUtils::getInstance()->setSearchPaths(searchPath);
 
