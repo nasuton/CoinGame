@@ -1,12 +1,12 @@
 ﻿このProjectは cocos2d-x というフレームワークと c++ を使用して作成しています
 
 WindowsのVisualStudioで起動する場合は、proj.win32フォルダー内のCoinGame.slnを起動してください。
+CoinGame.exeは proj.win32/Debug.win32 内にあります。
 
 macOSのX-codeで起動する場合は、proj.ios_macフォルダー内のCoinGame.xcodeprojを起動してくだいさい。
 
 Androidで起動したい場合は、Android-Studioでproj.android-studioを開いて起動してください。
-
-CoinGame.exeは proj.win32/Debug.win32 内にあります。
+CoinGame-debug.apk は bin/debug/android 内にあります。
 
 *.cppや*.hはClasses内に入っています。
 
@@ -24,3 +24,4 @@ CoinGame.exeは proj.win32/Debug.win32 内にあります。
 ・ステージの追加やガチャの中身は簡単に追加できるようになっています。
 ・コレクションシーンもガチャの中身に応じて増えます。
 ・ステージもエディタがあり、それをcsvやjsonとして排出するので簡単に追加可能
+・Android,iPhone,Windowsそれぞれに対応しています
