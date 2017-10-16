@@ -67,8 +67,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
         
         glview = GLViewImpl::createWithRect(evn->gameName, 
 											cocos2d::Rect(0, 0, 
-														evn->smallResolutionSize.width,
-														evn->smallResolutionSize.height));
+														evn->mediumResolutionSize.width,
+														evn->mediumResolutionSize.height));
         
         searchPath.push_back("mediumResolutionSize");
         searchPath.push_back("sound/PC");
