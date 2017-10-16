@@ -1,0 +1,38 @@
+{
+	"backGround" :
+	{
+		"res" : "gacha/gachabody.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.56
+		}
+	},
+	"gachaHandle" :
+	{
+		"res" : "gacha/handle.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.435
+		}
+	},
+	"backButton" :
+	{
+		"res" : "backButton.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.5
+		}
+	},
+	"gachaButton" :
+	{
+		"res" : "gacha/gachaButton.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.13
+		}
+	}
+}

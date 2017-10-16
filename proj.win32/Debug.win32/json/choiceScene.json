@@ -1,0 +1,44 @@
+{
+	"backGround" :
+	{
+		"res" : "choiceScene/choiceScenebackground.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.5
+		}
+	},
+	"slideViewSprite" :
+	{
+			"ステージ1" : "choiceScene/stage1SceneSlideView.png",
+			"ステージ2" : "choiceScene/stage2SceneSlideView.png",
+			"ガチャ" : "choiceScene/capsuleToysSceneSlideView.png",
+			"コレクション" : "choiceScene/collectionSlideView.png"
+	},
+	"slideView" :
+	{
+		"span" : 300,
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.5
+		}
+	},
+	"uiButton" :
+	{
+		"res" : "choiceScene/playButton.png",
+		"position" :
+		{
+			"x" : 0.5,
+			"y" : 0.1
+		},
+		"fontText" : "PLAY",
+		"fontSize" : 50.0,
+		"color" :
+		{
+			"red" : 0.0,
+			"green" : 0.0,
+			"blue" : 0.0
+		}
+	}
+}
