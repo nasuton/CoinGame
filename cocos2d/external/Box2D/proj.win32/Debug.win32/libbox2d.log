@@ -16,11 +16,11 @@
   b2Settings.cpp
   b2StackAllocator.cpp
   b2Timer.cpp
-  b2Body.cpp
 c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader': マクロが再定義されました。 (ソース ファイルをコンパイルしています ..\Common\b2Timer.cpp)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\sal.h(2866): note: '__useHeader' の以前の定義を確認してください (ソース ファイルをコンパイルしています ..\Common\b2Timer.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\sal.h(2866): note: '__useHeader' の以前の定義を確認してください (ソース ファイルをコンパイルしています ..\Common\b2Timer.cpp)
 c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure': マクロが再定義されました。 (ソース ファイルをコンパイルしています ..\Common\b2Timer.cpp)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\sal.h(2876): note: '__on_failure' の以前の定義を確認してください (ソース ファイルをコンパイルしています ..\Common\b2Timer.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\sal.h(2876): note: '__on_failure' の以前の定義を確認してください (ソース ファイルをコンパイルしています ..\Common\b2Timer.cpp)
+  b2Body.cpp
   b2ContactManager.cpp
   b2Fixture.cpp
   b2Island.cpp

@@ -96,14 +96,14 @@
   btConeTwistConstraint.cpp
   btContactConstraint.cpp
   btFixedConstraint.cpp
-c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(137): warning C4305: '=': 'double' から 'btScalar' へ切り詰めます。
-c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(148): warning C4305: '=': 'double' から 'btScalar' へ切り詰めます。
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': アライメント指定子は実際のアラインメント (128) より小さいため、無視されます。 (ソース ファイルをコンパイルしています ..\BulletDynamics\ConstraintSolver\btContactConstraint.cpp)
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(866): warning C4244: '=': 'double' から 'btScalar' への変換です。データが失われる可能性があります。
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(911): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(971): warning C4244: '=': 'double' から 'btScalar' への変換です。データが失われる可能性があります。
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(973): warning C4244: '=': 'double' から 'btScalar' への変換です。データが失われる可能性があります。
   btGearConstraint.cpp
+c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(137): warning C4305: '=': 'double' から 'btScalar' へ切り詰めます。
+c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(148): warning C4305: '=': 'double' から 'btScalar' へ切り詰めます。
   btGeneric6DofConstraint.cpp
   btGeneric6DofSpringConstraint.cpp
   btHinge2Constraint.cpp
@@ -128,10 +128,10 @@ c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\constraints
   btMultiBodyPoint2Point.cpp
   btDantzigLCP.cpp
   btMLCPSolver.cpp
+  btRaycastVehicle.cpp
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): warning C4473: 'printf': 書式文字列として渡された引数が不足しています
   c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): note: プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、1 が指定されています。
   c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): note: 不足している可変個引数 2 が書式文字列 '% s' に必要です
-  btRaycastVehicle.cpp
   btWheelInfo.cpp
   btGpu3DGridBroadphase.cpp
   btParallelConstraintSolver.cpp
@@ -167,11 +167,11 @@ c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletmultithreaded\spusam
   btSerializer.cpp
   btVector3.cpp
   MiniCL.cpp
+  MiniCLTaskScheduler.cpp
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
-  MiniCLTaskScheduler.cpp
   MiniCLTask.cpp
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\minicl\minicl.cpp(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
@@ -183,6 +183,7 @@ c:\cocos2d-x_project\coingame\cocos2d\external\bullet\minicl\minicl.cpp(194): wa
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\minicl\minicl.cpp(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+c:\cocos2d-x_project\coingame\cocos2d\external\bullet\minicl\minicl.cpp(166): warning C4101: 'workitem_size': ローカル変数は 1 度も使われていません。
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\minicl\minicl.cpp(547): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
 c:\cocos2d-x_project\coingame\cocos2d\external\bullet\minicl\minicl.cpp(640): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

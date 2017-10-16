@@ -5,8 +5,8 @@
   DetourObstacleAvoidance.cpp
   DetourPathCorridor.cpp
   DetourPathQueue.cpp
-  DetourProximityGrid.cpp
 ..\DetourCrowd\DetourObstacleAvoidance.cpp(334): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  DetourProximityGrid.cpp
   DetourTileCache.cpp
   DetourTileCacheBuilder.cpp
   DetourAlloc.cpp
