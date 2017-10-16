@@ -1,0 +1,261 @@
+﻿  AppDelegate.cpp
+  GachaButton.cpp
+  GachaHandleSprite.cpp
+  CapsuleToysLayer.cpp
+c:\cocos2d-x_project\coingame\classes\appdelegate.cpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\GachaButton.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\GachaHandleSprite.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\Layer\CapsuleToysLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\GachaButton.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\GachaHandleSprite.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\AppDelegate.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\GachaButton.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\Layer\CapsuleToysLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\Layer\CapsuleToysLayer.cpp)
+  CapsuleToysModalLayer.cpp
+  CapsuleToysScene.cpp
+  ChoiceLayer.cpp
+  SliderLayer.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\Scene\CapsuleToysScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\ModalLayer\CapsuleToysModalLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Layer\ChoiceLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\ModalLayer\CapsuleToysModalLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Layer\ChoiceLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\Scene\CapsuleToysScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Layer\SliderLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\Scene\CapsuleToysScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CapsuleToysScene\ModalLayer\CapsuleToysModalLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Layer\ChoiceLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Layer\SliderLayer.cpp)
+c:\cocos2d-x_project\coingame\classes\choicescene\layer\sliderlayer.cpp(45): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  ChoiceScene.cpp
+  CollectionLayer.cpp
+  ScrollViewLayer.cpp
+  CollectionModalLayer.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Scene\ChoiceScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Layer\CollectionLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Layer\ScrollViewLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\ChoiceScene\Scene\ChoiceScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Layer\CollectionLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Layer\ScrollViewLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\ModalLayer\CollectionModalLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Layer\CollectionLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Layer\ScrollViewLayer.cpp)
+c:\cocos2d-x_project\coingame\classes\collectionscene\layer\scrollviewlayer.cpp(62): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\ModalLayer\CollectionModalLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\ModalLayer\CollectionModalLayer.cpp)
+  CollectionScene.cpp
+  Coin.cpp
+  LeverBase.cpp
+  LeverLeft.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Scene\CollectionScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Coin.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Lever\LeverBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Scene\CollectionScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\CollectionScene\Scene\CollectionScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Coin.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Lever\LeverBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Lever\LeverLeft.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Lever\LeverLeft.cpp)
+  LeverRight.cpp
+  PrizeSprite.cpp
+  StageBase.cpp
+  TenYenStageLayer.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Lever\LeverRight.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\StageBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Lever\LeverRight.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\PrizeSprite.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\StageBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\PrizeSprite.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\TenYenStage\Layer\TenYenStageLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\TenYenStage\Layer\TenYenStageLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\TenYenStage\Layer\TenYenStageLayer.cpp)
+c:\cocos2d-x_project\coingame\classes\gamescene\stage\tenyenstage\layer\tenyenstagelayer.cpp(118): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\cocos2d-x_project\coingame\classes\gamescene\stage\tenyenstage\layer\tenyenstagelayer.cpp(188): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\cocos2d-x_project\coingame\classes\gamescene\stage\tenyenstage\layer\tenyenstagelayer.cpp(221): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\cocos2d-x_project\coingame\classes\gamescene\stage\tenyenstage\layer\tenyenstagelayer.cpp(272): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+c:\cocos2d-x_project\coingame\classes\gamescene\stage\tenyenstage\layer\tenyenstagelayer.cpp(283): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  TenYenStageScene.cpp
+  ManagingSound.cpp
+  BackButton.cpp
+  PhysicsLine.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\TenYenStage\Scene\TenYenStageScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\ui\uiscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\BackButton.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\Audio\ManagingSound.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\GameScene\Stage\TenYenStage\Scene\TenYenStageScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\BackButton.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\Audio\ManagingSound.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\BackButton.cpp)
+c:\cocos2d-x_project\coingame\classes\other\audio\managingsound.cpp(26): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\cocos2d-x_project\coingame\classes\other\audio\managingsound.cpp(331): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\CSV\PhysicsLine.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\CSV\PhysicsLine.cpp)
+  LayerBase.cpp
+  ModalLayerBase.cpp
+  SceneBase.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\LayerBase\LayerBase.cpp)
+  SceneManager.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\LayerBase\LayerBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\LayerBase\ModalLayerBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\Scene\SceneBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\LayerBase\ModalLayerBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\Scene\SceneBase.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\Scene\SceneManager.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\Scene\SceneManager.cpp)
+  EnvironmentDefaultData.cpp
+  Probability.cpp
+  UserData.cpp
+  TitleLayer.cpp
+c:\cocos2d-x_project\coingame\classes\title\layer\titlelayer.cpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\cocos2d-x_project\coingame\classes\title\layer\titlelayer.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Title\Layer\TitleLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\System\EnvironmentDefaultData.cpp)
+  TitleScene.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\System\EnvironmentDefaultData.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\UserData\UserData.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Title\Layer\TitleLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Other\UserData\UserData.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Title\Layer\TitleLayer.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Title\Scene\TitleScene.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Title\Scene\TitleScene.cpp)
+c:\cocos2d-x_project\coingame\classes\title\layer\titlelayer.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\Classes\Title\Scene\TitleScene.cpp)
+  main.cpp
+c:\cocos2d-x_project\coingame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています main.cpp)
+c:\cocos2d-x_project\coingame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています main.cpp)
+AppDelegate.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+     ライブラリ C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\CoinGame.lib とオブジェクト C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\CoinGame.exp を作成中
+  CoinGame.vcxproj -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\CoinGame.exe
+  CoinGame.vcxproj -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\CoinGame.pdb (Full PDB)
+  C:\cocos2d-x_Project\CoinGame\Resources\.DS_Store -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\.DS_Store
+  C:\cocos2d-x_Project\CoinGame\Resources\fonts\misaki_gothic.ttf -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\fonts\misaki_gothic.ttf
+  C:\cocos2d-x_Project\CoinGame\Resources\json\capsuleToysScene.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\capsuleToysScene.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\choiceScene.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\choiceScene.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\result.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\result.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\resultSentence.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\resultSentence.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\slideView.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\slideView.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\StageSetting0.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\StageSetting0.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\StageSetting1.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\StageSetting1.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\tenYenStage0.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\tenYenStage0.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\tenYenStage1.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\tenYenStage1.json
+  C:\cocos2d-x_Project\CoinGame\Resources\json\titleScene.json -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\json\titleScene.json
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\backButton.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\backButton.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gift.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gift.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\choiceScene\capsuleToysSceneSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\choiceScene\capsuleToysSceneSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\choiceScene\choiceScenebackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\choiceScene\choiceScenebackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\choiceScene\collectionSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\choiceScene\collectionSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\choiceScene\playButton.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\choiceScene\playButton.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\choiceScene\stage1SceneSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\choiceScene\stage1SceneSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\choiceScene\stage2SceneSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\choiceScene\stage2SceneSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\coinType\coin1.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\coinType\coin1.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\coinType\coin2.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\coinType\coin2.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\coinType\coin3.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\coinType\coin3.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\coinType\coin4.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\coinType\coin4.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\collection\collectionBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\collection\collectionBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\collection\collectionLayerBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\collection\collectionLayerBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\capsule.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\capsule.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\capsuleBackGround.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\capsuleBackGround.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\gachabody.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\gachabody.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\gachaButton.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\gachaButton.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\handle.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\handle.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\result\femaleIdolCard.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\result\femaleIdolCard.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\result\femaleIdolPoster.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\result\femaleIdolPoster.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\result\maleIdolsCard.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\result\maleIdolsCard.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\result\menko.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\result\menko.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\result\slingshot.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\result\slingshot.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\gacha\result\spinningTop.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\gacha\result\spinningTop.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\lever\lever.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\lever\lever.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\lever\lever_background.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\lever\lever_background.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\modal\canNotDraw.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\modal\canNotDraw.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\modal\characterBackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\modal\characterBackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\modal\collectionModalBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\modal\collectionModalBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\modal\modalMask.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\modal\modalMask.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\modal\resultBackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\modal\resultBackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\modal\textBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\modal\textBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\particle\particle_texture.plist -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\particle\particle_texture.plist
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\stage\blackboard.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\stage\blackboard.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\stage\coin_entry.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\stage\coin_entry.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\stage\frame.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\stage\frame.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\stage\prizemouth.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\stage\prizemouth.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\title\titlebackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\title\titlebackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\title\titleName.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\title\titleName.png
+  C:\cocos2d-x_Project\CoinGame\Resources\largeResolutionSize\title\touchSprite.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\largeResolutionSize\title\touchSprite.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\backButton.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\backButton.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gift.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gift.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\choiceScene\capsuleToysSceneSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\choiceScene\capsuleToysSceneSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\choiceScene\choiceScenebackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\choiceScene\choiceScenebackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\choiceScene\collectionSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\choiceScene\collectionSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\choiceScene\playButton.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\choiceScene\playButton.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\choiceScene\stage1SceneSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\choiceScene\stage1SceneSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\choiceScene\stage2SceneSlideView.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\choiceScene\stage2SceneSlideView.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\coinType\coin1.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\coinType\coin1.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\coinType\coin2.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\coinType\coin2.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\coinType\coin3.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\coinType\coin3.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\coinType\coin4.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\coinType\coin4.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\collection\collectionBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\collection\collectionBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\collection\collectionLayerBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\collection\collectionLayerBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\capsule.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\capsule.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\capsuleBackGround.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\capsuleBackGround.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\gachabody.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\gachabody.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\gachaButton.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\gachaButton.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\handle.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\handle.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\result\femaleIdolCard.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\result\femaleIdolCard.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\result\femaleIdolPoster.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\result\femaleIdolPoster.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\result\maleIdolsCard.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\result\maleIdolsCard.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\result\menko.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\result\menko.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\result\slingshot.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\result\slingshot.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\gacha\result\spinningTop.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\gacha\result\spinningTop.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\lever\lever.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\lever\lever.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\lever\lever_background.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\lever\lever_background.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\modal\canNotDraw.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\modal\canNotDraw.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\modal\characterBackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\modal\characterBackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\modal\collectionModalBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\modal\collectionModalBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\modal\modalMask.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\modal\modalMask.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\modal\resultBackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\modal\resultBackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\modal\textBack.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\modal\textBack.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\particle\particle_texture.plist -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\particle\particle_texture.plist
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\BGM\selectSceneBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\BGM\selectSceneBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\BGM\tenYenStage.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\BGM\tenYenStage.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\BGM\titleSceneBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\BGM\titleSceneBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\SE\coin_contact.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\SE\coin_contact.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\SE\coin_entry.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\SE\coin_entry.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\SE\coin_hole.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\SE\coin_hole.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\SE\goal.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\SE\goal.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\SE\lever.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\SE\lever.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\sound\SE\titleTap.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\sound\SE\titleTap.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\stage\blackboard.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\stage\blackboard.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\stage\coin_entry.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\stage\coin_entry.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\stage\frame.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\stage\frame.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\stage\prizemouth.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\stage\prizemouth.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\title\titlebackground.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\title\titlebackground.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\title\titleName.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\title\titleName.png
+  C:\cocos2d-x_Project\CoinGame\Resources\mediumResolutionSize\title\touchSprite.png -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\mediumResolutionSize\title\touchSprite.png
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\.DS_Store -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\.DS_Store
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\BGM\capsuleToysSceneBGM.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\BGM\capsuleToysSceneBGM.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\BGM\collectionSceneBGM.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\BGM\collectionSceneBGM.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\BGM\selectSceneBGM.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\BGM\selectSceneBGM.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\BGM\tenYenStageBGM.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\BGM\tenYenStageBGM.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\BGM\titleSceneBGM.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\BGM\titleSceneBGM.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\SE\coin_contact.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\SE\coin_contact.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\SE\coin_entry.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\SE\coin_entry.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\SE\coin_hole.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\SE\coin_hole.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\SE\goal.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\SE\goal.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\SE\lever.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\SE\lever.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\PC\SE\titleTap.mp3 -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\PC\SE\titleTap.mp3
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\BGM\capsuleToysSceneBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\BGM\capsuleToysSceneBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\BGM\collectionSceneBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\BGM\collectionSceneBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\BGM\selectSceneBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\BGM\selectSceneBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\BGM\tenYenStageBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\BGM\tenYenStageBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\BGM\titleSceneBGM.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\BGM\titleSceneBGM.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\SE\coin_contact.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\SE\coin_contact.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\SE\coin_entry.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\SE\coin_entry.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\SE\coin_hole.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\SE\coin_hole.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\SE\goal.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\SE\goal.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\SE\lever.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\SE\lever.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\sound\Smartphone\SE\titleTap.m4a -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\sound\Smartphone\SE\titleTap.m4a
+  C:\cocos2d-x_Project\CoinGame\Resources\stageData\tenYenStage0\prizeWall.csv -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\stageData\tenYenStage0\prizeWall.csv
+  C:\cocos2d-x_Project\CoinGame\Resources\stageData\tenYenStage0\raildata.csv -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\stageData\tenYenStage0\raildata.csv
+  C:\cocos2d-x_Project\CoinGame\Resources\stageData\tenYenStage0\raildraw.csv -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\stageData\tenYenStage0\raildraw.csv
+  C:\cocos2d-x_Project\CoinGame\Resources\stageData\tenYenStage1\prizeWall.csv -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\stageData\tenYenStage1\prizeWall.csv
+  C:\cocos2d-x_Project\CoinGame\Resources\stageData\tenYenStage1\raildata.csv -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\stageData\tenYenStage1\raildata.csv
+  C:\cocos2d-x_Project\CoinGame\Resources\stageData\tenYenStage1\raildraw.csv -> C:\cocos2d-x_Project\CoinGame\proj.win32\Debug.win32\stageData\tenYenStage1\raildraw.csv
+  132 個のファイルをコピーしました
